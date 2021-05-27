@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__
+docs/_build
+notebooks/*.csv
+notebooks/*.txt
+notebooks/*.pkl
+notebooks/sandbox.ipynb
+notebooks/.ipynb_checkpoints
+lint_code.sh
+.pytest_cache
