@@ -1,11 +1,12 @@
-import genomicsurveillance as gs
-import pandas as pd
-import numpy as np
-import os
 import json
+import os
 
-from .utils import time_to_str
+import genomicsurveillance as gs
+import numpy as np
+import pandas as pd
+
 from .config import Spim
+from .utils import time_to_str
 
 
 def get_file_path(out, prefix: str = "specimen", suffix: str = "", ending: str = "csv"):
