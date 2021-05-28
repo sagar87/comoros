@@ -54,7 +54,7 @@ def spim(
     file_path = get_file_path(
         out, prefix="comoros", suffix=data["analysis_date"], ending="csv"
     )
-    spim_table.to_csv(out, index=None)
+    spim_table.to_csv(file_path, index=None)
 
 
 @app.command()
