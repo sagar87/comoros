@@ -133,7 +133,7 @@ def run(
         england.pop18.values,
         tau=5.1,
         alpha1=(cases[..., lin_dates] / 2).reshape(317, -1, 1),
-        model_kwargs=dict(handler="SVI", num_epochs=3000, num_samples=1000, lr=0.001),
+        model_kwargs=dict(handler="SVI", num_epochs=30000, num_samples=1000, lr=0.001),
     )
     model.fit()
 
